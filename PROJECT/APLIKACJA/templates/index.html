@@ -1,0 +1,7 @@
+{% for zmienna in ZMIENNA_HTML%}
+    Obiekt modelu: {{zmienna}} <br>
+    tekst: {{zmienna.tekst}} <br>
+    liczby: {{zmienna.liczby}} <br>
+    pole_dziki_klucz (Obiekt modelu) {{zmienna.pole_dziki_klucz}}<br>
+    pole_dziki_klucz zmienna liczby_na_sterydach: {{zmienna.pole_dziki_klucz.liczby_na_sterydach}}<br>
+{% endfor %}
